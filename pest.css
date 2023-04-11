@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.pos{
+    position: absolute;
+    font-size: 20px;
+}
+.p{
+    font-size: 100px;
+}
