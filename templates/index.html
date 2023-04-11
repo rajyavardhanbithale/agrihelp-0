@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AGRIHELP</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/a07ca67f91.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+        <div class="logo"><a href="#">AGRIHELP</a></div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#" class="desktop-link">Features</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Features</label>
+            <ul>
+              <li><a href="/weather">WEATHER</a></li>
+              <li><a href="/soil">SOIL ANALYSIS</a></li>
+
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Services</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Services</label>
+            <ul>
+              <li><a href="/pest">PEST CONTROL</a></li>
+              <li><a href="/govplus">Goverment Scheme's</a></li>
+              <li><a href="/resource">Resources</a></li>
+              <!-- <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </li>
+          <li><a href="https://github.com/rajyavardhanbithale/agrihelp">About</a></li>
+          <!-- <li><a href="#">Feedback</a></li> -->
+        </ul>
+      </div>
+      <!-- <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form> -->
+
+      <i class="fa-solid fa-wheat-awn fa-fade fa-2x1" style="color: #ffffff; font-size:30px"></i>
+    </nav>
+  </div>
+
+
+  <div class="dummy-text">
+    <h2>Revolutionizing Farming With Innovative Technology Solutions</h2>
+    <h2>A Helping Hand For Farmers &#129309</h2>
+    <img src="{{ url_for('static', filename='img/sphere.svg') }}" alt="" style="width: 2.5%;">
+    <p style="font-size: 13px;">360° View, Move it with Your Finger</p>
+  </div>
+
+
+  {{ panoraj | safe }}
+
+
+  <div id="leftlogo">© AGRIHELP &nbsp; 2023</div>
+
+</body>
+
+</html>

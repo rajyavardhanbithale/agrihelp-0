@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/weather.css') }}">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>WEATHER</h1>
+        <div>
+            <form action="{{ url_for("actionSearch")}}" method="post">
+
+                <input type="text" id="input" name="searchcity" placeholder="Search City">
+                <button id="search" type="submit">Search</button>
+            </form>
+
+        </div>
+    </div>
+    <main>
+        <div class="weather">
+            <h2 class="city">{{ region }}</h2>
+            <div class="temp-box">
+                <i class="day-icon sizeico1" data-feather="{{ ico1 }}"></i>
+                <p id="temperature">{{ temp }} °C</p>
+            </div>
+            <span id="clouds">{{ comment }}
+            </span>
+        </div>
+
+        <div class="divider1"></div>
+
+        <div class="forecastH">
+            <p class="cast-header">Upcoming Forecast
+            </p>
+            <div class="templist">
+                <div class="next">
+                    <div>
+                        <p class="time">{{ w1TimeMain }}</p> 
+                        <p>{{ w1TempMain }} °C</p>
+                    </div>
+                    <p class="desc">{{ w1CommentMain }}</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">{{ w2Time }}</p> 
+                        <p>{{ w2Temp }} °C</p>
+                    </div>
+                    <p class="desc">{{ w2Comment }}</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">{{ w3Time }}</p> 
+                        <p>{{ w3Temp }} °C</p>
+                    </div>
+                    <p class="desc">{{ w3Comment }}</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">{{w4Time}}</p> 
+                        <p>{{ w4Temp }} °C</p>
+                    </div>
+                    <p class="desc">{{ w4Comment }}</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">{{w5Time}}</p> 
+                        <p>{{ w5Temp }} °C</p>
+                    </div>
+                    <p class="desc">{{ w5Comment }}</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- <div class="forecastD">
+        <div class="divider2"></div>
+        <p class="cast-header">Next 4 Days Forecast
+        </p>
+        <div class="weekF">
+            <div class="dayF">
+                <p class="date">Sun Jul 03 2022</p>
+                <p>31 °C / 31 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun Jul 03 2022</p>
+                <p>31 °C / 31 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun Jul 03 2022</p>
+                <p>31 °C / 31 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun Jul 03 2022</p>
+                <p>31 °C / 31 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+        
+                        
+        </div>
+    </div> -->
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>

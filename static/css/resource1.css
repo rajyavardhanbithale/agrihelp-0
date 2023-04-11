@@ -1,0 +1,80 @@
+/* CSS Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+
+  font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: rgba(11, 102, 35, 0.69);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.5px);
+-webkit-backdrop-filter: blur(12.5px);
+color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tool {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+  }
+  
+  .tool h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .tool p {
+    margin: 10px 0 0 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEST CONTROL</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pest.css') }}" class="stylesheet">
+    <link rel="stylesheet" href="https://www.virtual-college.co.uk/assets/css/app.css?v=2.47.0" class="stylesheet">
+</head>
+<style>
+    * {
+        -webkit-touch-callout: none;
+        /* iOS Safari */
+        -webkit-user-select: none;
+        /* Safari */
+        -khtml-user-select: none;
+        /* Konqueror HTML */
+        -moz-user-select: none;
+        /* Old versions of Firefox */
+        -ms-user-select: none;
+        /* Internet Explorer/Edge */
+        user-select: none;
+    }
+</style>
+
+<body>
+    {{ content | safe }}
+</body>
+
+</html>
