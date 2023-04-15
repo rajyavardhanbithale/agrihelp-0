@@ -37,6 +37,14 @@ To run the AGRIHELP website on your local machine, you need to follow these step
 AGRIHELP is designed to be user-friendly and intuitive. Upon launching the application, users can navigate through the various sections to access the features they require. Users can access weather information, pest control measures, soil analysis reports, and a range of farming tools and services, all in one place.
 
 ## Contact 
-Siddhant Dewangan - siddhantd37@gmail.com
-Rajyavardhan Bithale - rajyavardhanbithale@protonmail.com
-Vedant Sahu - 
+- Siddhant Dewangan
+    * YOUR-EMAIL 
+    * [Github](https://github.com/YOUR-USER-NAME)
+
+- Rajyavardhan Bithale
+    * rajyavardhanbithale@protonmail.com 
+    * [Github](https://github.com/rajyavardhanbithale)
+
+- Vedant Sahu
+    * YOUR-EMAIL 
+    * [Github](https://github.com/YOUR-USER-NAME)
