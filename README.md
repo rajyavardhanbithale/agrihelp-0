@@ -1,4 +1,4 @@
-# AGRIHELP - A Comprehensive Online Platform for Farmers
+9# AGRIHELP - A Comprehensive Online Platform for Farmers
 AGRIHELP is a one-stop solution for farmers that provides them with all the necessary information and services required for efficient and sustainable agriculture. This online platform offers a range of features, including weather information, pest control, soil analysis, farming tools, and services, all in one place.
 
 ## Table of Contents
@@ -29,8 +29,8 @@ This web application is developed using a combination of front-end and back-end 
 To run the AGRIHELP website on your local machine, you need to follow these steps:
 
 1. Clone the repository to your local machine.
-2. Install the required dependencies by running pip install -r requirements.txt.
-3. Run the Flask app by executing the command python app.py.
+2. Install the required dependencies by running `pip install -r requirements.txt`.
+3. Run the Flask app by executing the command `python app.py` make sure that python3 is installed on your machine.
 4. Open your web browser and navigate to http://YOUR-IP-ADDRESS:8080 or http://localhost:8080 access the website.
 
 ## Usage
