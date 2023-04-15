@@ -38,8 +38,8 @@ AGRIHELP is designed to be user-friendly and intuitive. Upon launching the appli
 
 ## Contact 
 - Siddhant Dewangan
-    * YOUR-EMAIL 
-    * [Github](https://github.com/YOUR-USER-NAME)
+    * siddhantd37@gmail.com 
+    * [Github](https://github.com/sidd-beast25)
 
 - Rajyavardhan Bithale
     * rajyavardhanbithale@protonmail.com 
