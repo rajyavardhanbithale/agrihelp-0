@@ -46,5 +46,5 @@ AGRIHELP is designed to be user-friendly and intuitive. Upon launching the appli
     * [Github](https://github.com/rajyavardhanbithale)
 
 - Vedant Sahu
-    * YOUR-EMAIL 
-    * [Github](https://github.com/YOUR-USER-NAME)
+    * verdant.sahu1993@gmail.com 
+    * [Github](https://github.com/vedantxtrem)
