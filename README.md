@@ -1,4 +1,7 @@
 # AGRIHELP - A Comprehensive Online Platform for Farmers
+
+NEW UPDATED REPOSITORY - https://github.com/rajyavardhanbithale/agrihelp-3
+
 AGRIHELP is a one-stop solution for farmers that provides them with all the necessary information and services required for efficient and sustainable agriculture. This online platform offers a range of features, including weather information, pest control, soil analysis, farming tools, and services, all in one place.
 
 ## Table of Contents
